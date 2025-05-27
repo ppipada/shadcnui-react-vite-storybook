@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+		"dbaeumer.vscode-eslint", // ESLint
+		"yzhang.markdown-all-in-one", // Markdown All in One
+		"davidanson.vscode-markdownlint",
+		"esbenp.prettier-vscode", // Prettier
+		"foxundermoon.shell-format", // Shell
+		"bradlc.vscode-tailwindcss" // Tailwind css
+	]
+}

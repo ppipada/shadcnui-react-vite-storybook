@@ -1,0 +1,20 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"declaration": true,
+		"declarationDir": "./dist/types",
+		"emitDeclarationOnly": true,
+		"outDir": "./dist",
+		"rootDir": "./src"
+	},
+	"include": ["src/**/*.ts", "src/**/*.tsx"],
+	"exclude": [
+		"**/*.stories.ts",
+		"**/*.stories.tsx",
+		"**/*.stories.js",
+		"**/*.stories.jsx",
+		"**/*.mdx",
+		"tailwind.config.package.ts",
+		"vite.config.ts"
+	]
+}
