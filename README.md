@@ -31,12 +31,12 @@ ShadcnUI components for React and Vite with Storybook stories and tests
     - Interactive stories with play functions that double as tests
 
 - CSS
-  - A css bundle is also probided using tailwind.
+  - A css bundle is also provided using tailwind.
   - A tailwind preset is NOT created as of now. Can be done by creating a preset/index.ts and modifying the package.json exports.
 
 ## Components not added
 
-- Composite ones that are added as example in shadcn docs
+- Composite ones that are added as example in shadcn-ui docs
   - combobox
   - datatable
   - datepicker
@@ -45,7 +45,7 @@ ShadcnUI components for React and Vite with Storybook stories and tests
 ## Prompt for generating stories
 
 - Always use Markdown format for output
-- Tech stack: shadcn 2.5, react 19, ts, lucide react icons, tailwind 4, vite 6, storybook 8 (jest and testing library utils merged into test)
+- Tech stack: shadcn-ui 2.5, react 19, ts, lucide react icons, tailwind 4, vite 6, storybook 8 (jest and testing library utils merged into test)
 - Properties and structure of stories should be
 
   - Title of story `ShadcnUI/<componentName>`
